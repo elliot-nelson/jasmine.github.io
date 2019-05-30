@@ -1,4 +1,7 @@
 .article {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.2em;
+
   p {
     width: 100%;
     margin: 5px 0;
@@ -17,7 +20,13 @@
     }
   }
 
-  pre.highlight, code.highlighter-rouge {
-    font-family: Monaco,Consolas,"Lucida Console",monospace;
+  pre.highlight {
+    font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
+  }
+
+  code.highlighter-rouge {
+    background-color: #f0f0f0;
+    font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
+    padding: 1px;
   }
 }
